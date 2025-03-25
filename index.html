@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="movil.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <title>Menu Responsivo</title>
+</head>
+
+<body>
+  <header>
+    <div class="encabezado ancho margen">
+      <figure class="logo">
+        <img src="Imagenes/pullrequest-logo.svg" alt="logo">
+      </figure>
+      <i class="fa-solid fa-bars menu-icon" id="icono_menu"></i>
+    </div>
+  </header>
+      <nav class="menu" id="contenedor_menu">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Empresa</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Ubicación</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    
+
+  <br>
+  <section>
+    <div class="contenedor_principal ancho">
+      <div class="contenedor1 margen">
+        <h1>Creacion de paginas web</h1>
+        <br>
+        <h2>Curso basico de HTML5 y CSS</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui error rerum corrupti voluptatibus praesentium eum, incidunt officiis suscipit alias, sit impedit saepe ullam doloremque recusandae ut tenetur fugiat nostrum dolor!</p>
+        <br>
+        <a href="0">ver</a>
+      </div>
+      <div class="contenedor2 margen">
+        <figure>
+          <img src="Imagenes/foto_pullrequest.svg" alt="">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <br>
+  <footer>
+    <div class="final ancho">
+      <a href="https://www.hectorcetina.com/">@KevinOrtiz</a>
+    </div>
+  </footer>
+
+  <!-- Funciones JavaScript -->
+   <script>
+    $("#icono_menu").click(function(){
+      $("#contenedor_menu").slideToggle();
+    })
+   </script>
+</body>
+</html>
